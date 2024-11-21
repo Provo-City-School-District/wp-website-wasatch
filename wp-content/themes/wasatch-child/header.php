@@ -19,7 +19,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title><?php if (is_home()) { ?>News | <?php } ?><?php if (is_page()) {
 															the_title(); ?> | <?php } ?><?php if (is_single()) {
-																											the_title(); ?> | <?php } ?><?php bloginfo('name'); ?></title>
+																							the_title(); ?> | <?php } ?><?php bloginfo('name'); ?></title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:700,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/assets/slick/slick.css' ?>" />
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/assets/slick/slick-theme.css' ?>" />
@@ -37,7 +37,7 @@
 		<h1><a href="https://provo.edu">Provo City School District</a></h1>
 	</header>
 	<header id="mainHeader">
-		<a href="<?php bloginfo('siteurl'); ?>"><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/header-logo.png'; ?>" alt="Elem" id="siteLogo" />
+		<a href="<?php bloginfo('siteurl'); ?>"><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/header-logo.png?v=1'; ?>" alt="Elem" id="siteLogo" />
 			<h1>Wasatch Elementary School</h1>
 		</a>
 		<aside>
