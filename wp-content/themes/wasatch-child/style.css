@@ -63,7 +63,7 @@ body {
 }
 
 /*================================================================================================================
-Overall Structeral  Styles
+Overall Structural  Styles
 ================================================================================================================*/
 @media (max-height: 720px) {
 	body {
@@ -128,8 +128,8 @@ header styles
 }
 
 #mainHeader #siteLogo {
-	width: 90px;
-	margin-top: -6px;
+	width: 80px;
+	margin-top: -15px;
 	margin-left: -14px;
 }
 
